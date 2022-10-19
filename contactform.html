@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <style>
+      body {
+        background-color: rgb(125,225,225);
+        color: white;
+        width: 700px;
+        height: 800px;
+      }
+    </style>
+    <script type="text/javascript" src="quform/js/scripts.js"></script>
+  </head>
+  <body style="padding: 0px 150px">
+    <section>
+      <table cellspacing="10px">
+      <h2>Contact Form</h2>
+      <h4>
+        Please fill in your information and we'll be sending your order in no
+        time
+      </h4>
+      <br /><br />
+      <tr>
+        <td>
+          <label for="">Your Name</label>
+        </td>
+        <td><input type="text" placeholder="First Name" /></td>
+        <td><input type="text" placeholder="Last Name" /></td>
+      </tr>
+      <tr>
+        <td><label for="">Your Email</label></td>
+        <td><input type="email" name="" id="" /></td>
+      </tr>
+      <tr>
+        <td><label for="tel">Phone*</label></td>
+        <td><input type="tel" name="" id="tel" maxlength="4" /></td>
+        <td><input type="tel" name="" id="tel"  maxlength="3"/></td>
+        <td><input type="tel" name="" id="tel" maxlength="3"/></td>
+      </tr>
+      <tr>
+        <td><label for="">Message Subject*</label></td>
+        <td>
+          <datalist>
+            <option value="opt1">opt1</option>
+            <option value="opt2">opt2</option>
+          </datalist>
+        </td>
+      </tr>
+    </table>
+    <label for="">Message</label>
+    <textarea
+      name=""
+      id=""
+      cols="60"
+      rows="7"
+      style="margin: 7px 75px"
+    ></textarea
+    ><br />
+    <br />
+    <label for="check">Verification</label>
+    <input type="checkbox" name="" id="check" style="margin:20px 50px">
+     
+    <!-- <div
+      style="
+        width: 300px;
+        height: 60px;
+        border-style: none;
+        bottom: 12px;
+        left: 25px;
+        margin: 0px;
+        padding: 0px;
+        right: 25px;
+        background: #f9f9f9;
+        border: 1px solid #c1c1c1;
+        border-radius: 3px;
+      "
+    >
+      <textarea
+        name="g-recaptcha-response"
+        class="g-recaptcha-response"
+        style="
+          width: 250px;
+          height: 40px;
+          border: 1px solid #c1c1c1;
+          margin: 10px 25px;
+          padding: 0px;
+          resize: none;
+        "
+      ></textarea> -->
+    </div>
+    <hr />
+    <button
+      style="
+        padding: 6px 30px;
+        background-color: rgb(87, 241, 239);
+        color: aliceblue;
+        border-color: white;
+      "
+    >
+      Submit Form
+    </button>
+    </section>
+  </body>
+</html>

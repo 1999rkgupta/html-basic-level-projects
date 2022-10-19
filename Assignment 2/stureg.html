@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="./style2.css" />
+  </head>
+  <body>
+    <h1><u>Student Registration Form</u></h1>
+    <section id="main">
+      <article>
+        <form action="#">
+          <div class="div1">
+            <label for="fname">FIRST NAME</label>
+            <input
+              type="text"
+              name="fname"
+              id="fname"
+              pattern="[A-Za-z]"
+              maxlength="30"
+            />
+            <label for="" style="font-size: 11px"
+              >(Max 30 characters a-z and A-Z)</label
+            >
+          </div>
+          <div class="div2">
+            <label for="lname">LAST NAME</label>
+            <input
+              type="text"
+              name="lname"
+              id="lname"
+              pattern="[A-Za-z]"
+              maxlength="30"
+            />
+            <label for="" style="font-size: 11px"
+              >(Max 30 characters a-z and A-Z)</label
+            >
+          </div>
+          <div class="div3">
+            <label for="dob">DATE OF BIRTH</label>
+            <input type="date" name="dob" id="dob" />
+          </div>
+          <div class="div4">
+            <label for="mail">EMAIL ID</label>
+            <input type="email" name="mail" id="mail" />
+          </div>
+          <div class="div5">
+            <label for="mob">MOBILE NUMBER</label>
+            <input type="tel" name="mob" id="mob" maxlength="10" />
+            <label for="" style="font-size: 11px">(10 digit numbar)</label>
+          </div>
+          <div class="div6">
+            <label for="gender">Gender</label>
+            <input
+              type="radio"
+              name="gender"
+              id="gender"
+              value="Male"
+              style="margin-left: 110px"
+            />Male
+            <input
+              type="radio"
+              name="gender"
+              id="gender"
+              value="Female"
+              style="margin-left: 20px"
+            />Female
+          </div>
+          <div class="div7">
+            <div>
+              <label
+                for="address"
+                style="
+                  position: relative;
+                  text-align: center;
+                  height: 20px;
+                  width: 50px;
+                "
+                >ADDRESS</label
+              >
+            </div>
+            <textarea name="" id="" cols="40" rows="5"></textarea>
+          </div>
+          <div class="div8">
+            <label for="city">CITY</label>
+            <input
+              type="text"
+              name="city"
+              id="city"
+              maxlength="30"
+              pattern="[a-zA-Z]"
+            />
+            <label for="" style="font-size: 11px"
+              >(Max 30 characters a-z and A-Z)</label
+            >
+          </div>
+          <div class="div9">
+            <label for="pin">PIN CODE</label>
+            <input type="tel" name="pin" id="pin" maxlength="6" />
+            <label for="" style="font-size: 11px">(6 digit number)</label>
+          </div>
+          <div class="div10">
+            <label for="state">STATE</label>
+            <input type="text" name="state" id="state" maxlength="30" />
+            <label for="" style="font-size: 11px"
+              >(Max 30 characters a-z and A-Z)</label
+            >
+          </div>
+          <div class="div11">
+            <label for="country">COUNTRY</label>
+            <input type="text" name="country" id="country" value="INDIA" " />
+          </div>
+          <div class="div12">
+            <label for="hob">HOBBIES</label>
+            <input type="checkbox" name="" id="hob" value="Drawing" />Drawing
+            <input type="checkbox" name="" id="hob" value="Singing" />Singing
+            <input type="checkbox" name="" id="hob" value="Dancing" />Dancing
+            <input
+              type="checkbox"
+              name=""
+              id="hob"
+              value="Sketching"
+            />Sketching
+            <br />
+            <br />
+            <input
+              type="checkbox"
+              name=""
+              id="hob"
+              value="Others"
+              style="margin-left: 163px"
+            />Others
+            <input
+              type="text"
+              id="hob"
+              placeholder="Please specify other....."
+              style="margin-left: 15px"
+            />
+          </div>
+          <div class="div13">
+            <label for="qual">QUALIFICATION</label>
+            <label for="" style="margin-left: 30px">Sl.No.&nbsp; Examination</label>
+            <label for="" style="margin-left: 50px">Board</label>
+            <label for="" style="margin-left: 85px">Percentage</label>
+            <label for="" style="margin-left: 55px">Year of Passing</label>
+            <br />
+            <label for="" style="margin-left: 170px">1</label>
+            <label for="" style="margin-left: 22px">Class X</label>
+            <input
+              type="text"
+              name=""
+              id=""
+              style="width: 140px; margin-left: 30px"
+            />
+            <input type="text" name="" id="" style="width: 140px" />
+
+            <input
+              type="text"
+              name=""
+              id=""
+              style="width: 140px; margin-bottom: 5px"
+            />
+            <br />
+            <label for="" style="margin-left: 170px">2</label>
+            <label for="" style="margin-left: 22px">Class XII</label>
+            <input
+              type="text"
+              name=""
+              id=""
+              style="width: 140px; margin-left: 19px"
+            />
+            <input type="text" name="" id="" style="width: 140px" />
+
+            <input
+              type="text"
+              name=""
+              id=""
+              style="width: 140px; margin-bottom: 5px"
+            />
+            <br />
+            <label for="" style="margin-left: 170px">3</label>
+            <label for="" style="margin-left: 22px">Graduation</label>
+            <input
+              type="text"
+              name=""
+              id=""
+              style="width: 140px; margin-left: 8px"
+            />
+            <input type="text" name="" id="" style="width: 140px" />
+
+            <input
+              type="text"
+              name=""
+              id=""
+              style="width: 140px; margin-bottom: 5px"
+            />
+            <br />
+            <label for="" style="margin-left: 170px">4</label>
+            <label for="" style="margin-left: 22px">Masters</label>
+            <input
+              type="text"
+              name=""
+              id=""
+              style="width: 140px; margin-left: 30px"
+            />
+            <input type="text" name="" id="" style="width: 140px" />
+
+            <input
+              type="text"
+              name=""
+              id=""
+              style="width: 140px; margin-bottom: 5px"
+            />
+          </div>
+          <div class="div14">
+            <label for="course"
+              >COURSE <br />
+              APPLIED FOR</label
+            >
+            <label for="course" style="margin-left: 55px">BCA</label>
+            <input type="radio" name="course" id="course" />
+            <label for="course" style="margin-left: 40px">B.Com</label>
+            <input type="radio" name="course" id="course" />
+            <label for="course" style="margin-left: 40px">B.Sc</label>
+            <input type="radio" name="course" id="course" />
+            <label for="course" style="margin-left: 40px">B.A</label>
+            <input type="radio" name="course" id="course" />
+          </div>
+          <div class="div15">
+            <input
+              type="button"
+              name="sbtn"
+              id="btn"
+              value="SUBMIT"
+              style="
+                margin-right: 30px;
+                padding: 6px 25px;
+                font-weight: bold;
+                color: aliceblue;
+                border-color: white;
+                background-color: rgb(65, 227, 173);
+              "
+            />
+            <input
+              type="button"
+              name="reset"
+              id="btn"
+              value="RESET"
+              style="
+                padding: 6px 25px;
+                font-weight: bold;
+                color: aliceblue;
+                border-color: white;
+                background-color: rgb(65, 227, 173);
+                margin-bottom: 20px;
+              "
+            />
+          </div>
+        </form>
+      </article>
+    </section>
+  </body>
+</html>

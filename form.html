@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+  </head>
+  <body>
+    <h2>Register Here</h2>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Registration Details</legend>
+        <label for="uname">Name :</label>
+        <input
+          type="text"
+          name="username"
+          value=""
+          placeholder="Enter ur name"
+          id="uname"
+        />
+        <br />
+        <br />
+        <label for="upassword">Password :</label>
+        <input
+          type="password"
+          pattern="Sandy123"
+          name="userpassword"
+          placeholder="Enter ur password"
+          id="upassword"
+        />
+      </fieldset>
+
+      <br />
+      <br />
+      <fieldset>
+        <legend>Age details</legend>
+        DOB : <input type="datetime-local" name="DOB" id="" /> <br /><br />
+        Age : <input type="number" name="" id="" placeholder="Enter ur Age" />
+        <br />
+      </fieldset>
+      <br />
+      Email :
+      <input type="email" name="email" placeholder="Enter ur Email" /><br />
+      Gender :
+      <input type="radio" name="gender" value="male" />Male
+      <input type="radio" name="gender" value="female" />Female
+      <br />
+      <br />
+      Course : <input type="checkbox" name="course" />Java
+      <input type="checkbox" name="course" />Javascript
+      <input type="checkbox" name="course" />React
+      <br />
+      Address :
+      <textarea
+        name=""
+        id=""
+        cols="20"
+        rows="5"
+        placeholder="Enter ur address"
+      ></textarea>
+      <br />
+      Contact :
+      <input
+        type="tel"
+        name="tel"
+        id=""
+        placeholder="123-4567-890"
+        pattern="(0-9) {3} - (0-9) {4} - (0-9) {3}"
+      /><br />
+      City :
+      <select name="Place" id="" size="3" multiple>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Mysore">Mysore</option>
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="Telangana">Telangana</option>
+        <option value="Goa">Goa</option>
+      </select>
+      <br />
+      <!-- html 5 Datalist -->
+      Color : <input list="colors" />
+      <datalist id="colors">
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+        <option value="red">RED</option>
+      </datalist>
+      <br />
+      <br />
+
+      <br />
+      Upload File : <input type="file" name="File" id="" /> <br /><br />
+      <button>RESET</button>
+      <button>SUBMIT</button>
+    </form>
+  </body>
+</html>

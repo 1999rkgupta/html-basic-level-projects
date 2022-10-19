@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form1</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <section id="main">
+      <article>
+        <fieldset>
+          <legend>Registration Details</legend>
+          <div class="div1">
+            <div>
+              <label for="uni">University : </label>
+            </div>
+            <input
+              type="text"
+              name="university"
+              id="uni"
+              placeholder="Enter University Name"
+            />
+          </div>
+          <div class="div2">
+            <div>
+              <label for="insti">Institiute : </label>
+            </div>
+            <input
+              type="text"
+              name="institute"
+              id="insti"
+              placeholder="Enter Institute name"
+            />
+          </div>
+          <div class="div3">
+            <div>
+              <label for="branch">Branch : </label>
+            </div>
+            <select name="branch" id="branch">
+              <option value="----select----">----Select----</option>
+              <option value="Mechanical" id="branch">Mechanical</option>
+              <option value="CS" id="branch">CS</option>
+              <option value="EEE" id="branch">EEE</option>
+              <option value="Civil" id="branch">Civil</option>
+            </select>
+          </div>
+          <div class="div4">
+            <div><label for="degree">Degree : </label></div>
+            <select name="degree" id="degree">
+              <option value="---select---" id="degree">----Select----</option>
+              <option value="B.Tech" id="degree">B.Tech</option>
+              <option value="BCA" id="degree">BCA</option>
+              <option value="BSC" id="degree">BSC</option>
+              <option value="B.Com" id="degree">B.Com</option>
+            </select>
+            <input type="radio" name="degree" value="Pursuing" />Pursuing
+            <input type="radio" name="degree" value="completed" />Completed
+          </div>
+          <div class="div5">
+            <div><label for="avg">Average CPI : </label></div>
+            <input
+              type="number"
+              name="avg"
+              id="avg"
+              style="width: 50px; margin-left: 220px"
+            />
+            <label for="upto">&nbsp&nbspUpto</label>
+            <input
+              type="number"
+              name="upto"
+              id="upto"
+              maxlength="8"
+              style="width: 50px"
+            />
+            <label for="">&nbsp;Th Semester</label>
+          </div>
+          <div class="div6">
+            <div><label for="exp">Experience : </label></div>
+            <input type="number" name="exp" id="exp" style="width: 50px" />
+            <label for="">&nbspYears</label>
+          </div>
+          <div class="div7">
+            <div><label for="blog">Your Website or Blog : </label></div>
+            <input type="text" name="blog" id="blog" value="http://" />
+          </div>
+        </fieldset>
+      </article>
+    </section>
+  </body>
+</html>

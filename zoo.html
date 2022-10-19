@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zoo</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body style="padding: 0px 30px">
+    <h2>Zoo Keeper Application Form</h2>
+    <h4 style="font-family: cursive">
+      Please Complete the form. Mandatory fields are marked with a
+      <b style="color: red">*</b>
+    </h4>
+    <br />
+    <form action="get">
+      <fieldset style="padding: 20px 20px">
+        <legend>CONTACT DETAILS</legend>
+        <label for="">Name<b style="color: red">*</b></label>
+        <input type="text" style="margin: 0px 120px" />
+        <br /><br />
+        <label for="">Telephone</label>
+        <input type="tel" style="margin: 0px 100px" />
+        <br /><br />
+        <label for="">Email<b style="color: red">*</b></label>
+        <input type="email" style="margin: 0px 120px" /><br /><br />
+      </fieldset>
+      <br />
+      <fieldset style="padding: 20px 20px">
+        <legend>PERSONAL INFORMATION</legend>
+
+        <label for=""><b style="color: red">*</b>Age</label>
+        <input type="number" style="margin: 0px 130px" />
+        <br /><br /><label for="">Gender</label>
+        <select name="Place" id="" style="margin: 0px 120px">
+          <option value="Female">Female</option>
+          <option value="Male">Male</option>
+        </select>
+        <br /><br />
+        <table>
+          <tr>
+            <td>
+              <label for=""
+                >When did you <br />
+                first know you <br />
+                wanted to be a <br />
+                zoo-keeper</label
+              >
+            </td>
+            <td>
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                style="margin: 0px 75px"
+              ></textarea>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+      <br />
+      <fieldset style="padding: 20px 20px">
+        <legend>PICK YOUR FAVORITE ANIMAL</legend>
+        <table border="0px" cellspacing="20" cellpadding="50">
+          <tr>
+            <td>
+              <input type="checkbox" name="animal" />
+              <label for="">Zebra</label>
+            </td>
+            <td>
+              <input type="checkbox" name="animal" /> <label for="">Cat</label>
+            </td>
+            <td><input type="checkbox" name="animal" /> Anaconda</td>
+            <td><input type="checkbox" name="animal" /> Human</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="animal" /> Elephant</td>
+            <td><input type="checkbox" name="animal" /> Wildebeest</td>
+            <td><input type="checkbox" name="animal" /> Pigeon</td>
+            <td><input type="checkbox" name="animal" /> Crab</td>
+          </tr>
+        </table>
+      </fieldset>
+      <br /><br />
+      <button style="padding: 6px 30px">Submit Application</button>
+      <br /><br />
+    </form>
+  </body>
+</html>
